@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --blue: #0093E9;
+    --white: #ffffff;
+color: rgb(55, 54, 97);
+// font-family: 'Kanit', sans-serif;
+//   font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.input {
+  width: 100px;
+  border-radius:5px ;
+  height: 25px;
+}
+
+.input:focus,.input:hover, .btn:hover {
+  outline: none !important;
+  border: 1px solid var(--blue);
+  box-shadow: 0 0 10px #719ECE;
+}
+
+
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+table {
+  border-radius: 50px;
+}
+
+thead tr {
+  // background-color: var(--blue);
+}
+
+tbody tr:nth-child(odd) {
+  // background-color: var(--blue);
+}
+
+tbody tr:nth-child(even) {
+  // background-color: var(--white);
+}
+
+tbody tr {
+  // background-image: url(noise.png);
+}
+
+table {
+  // background-color: #ff33cc;
+}
+
+.parent-box {
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.container {
+  padding: 10px;
+  background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.emp-table {
+  padding: 10px;
+}
+.table-row {
+  padding: 10px;
+}
+
+.action-center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+}
